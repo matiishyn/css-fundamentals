@@ -1,0 +1,39 @@
+/* зміна шрифта */
+h1 {
+  font-family: "rubik", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: "Tahoma", Arial, Verdana, sans-serif;
+}
+
+/* завантажений шрифт */
+@font-face {
+  font-family: "rubik";
+  src: url("./rubik-regular-webfont.woff2") format("woff2"),
+    url("./rubik-regular-webfont.woff") format("woff"),
+    url("./Rubik-Regular.ttf") format("ttf");
+}
+
+/* Шрифт із Google Font */
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* курсив */
+h1 {
+  font-style: italic;
+}
+
+/* жирний фрифт */
+p {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: 100;
+}

@@ -1,0 +1,48 @@
+/* 1. Type Selector - селектор елементу */
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+/* 2. Class selector - селектор класу */
+.warning {
+  color: orange;
+}
+
+.very-big {
+  font-size: 40px;
+}
+
+/* 3. ID selector - селектор ID */
+#info-about-site {
+  color: green;
+}
+
+/* 4. Attribute selector - селектор атрибуту */
+[target="_blank"] {
+  color: green;
+}
+
+/* містить */
+[href*="google"] {
+  color: yellow;
+}
+
+/* починається із */
+[href^="http://"]
+{
+  color: red;
+}
+
+/* закінчується */
+[href$=".mp3"] {
+  font-size: 20px;
+}
+
+/* universal selector - універсальний селектор */
+* {
+  /* border: 1px solid red; */
+}

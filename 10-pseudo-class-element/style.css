@@ -1,0 +1,110 @@
+/* Псевдокласи */
+
+a.link-to-google:hover {
+  color: red;
+  text-decoration: none;
+}
+
+p em:hover {
+  background-color: cyan;
+  cursor: pointer;
+}
+
+.apple:active {
+  color: blue;
+}
+
+input.name:focus {
+  box-shadow: 0 0 5px 5px red;
+}
+
+.highlighted-focused-element:focus {
+  box-shadow: 0 0 5px 5px red;
+}
+
+/* Стани ел-та посилання */
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+}
+/* hover, active */
+
+/* Стани ел-тів форми */
+input:disabled {
+  background: grey;
+}
+
+input:checked + label {
+  color: red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:valid + div.warning {
+  display: none;
+}
+
+/* Вибірка елементів по індексу та порядку */
+li:first-child,
+li:last-child {
+  font-weight: bold;
+}
+
+li:only-child {
+  color: red;
+}
+
+div.my-parent div:first-of-type {
+  font-weight: bold;
+}
+
+li:nth-child(3n + 2) {
+  color: green;
+}
+
+/* Псевдоелементи */
+
+p.text::first-letter {
+  font-size: 30px;
+}
+
+p.text::first-line {
+  font-style: italic;
+}
+
+p.text::selection {
+  background-color: red;
+}
+
+h1::before {
+  content: url();
+}
+
+h1::after {
+  content: "++";
+}
+
+a[href^='https://']::after
+{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(./icon.png);
+  background-size: contain;
+  display: inline-block;
+  margin-left: 5px;
+}

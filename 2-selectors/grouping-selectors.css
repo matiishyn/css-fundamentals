@@ -1,0 +1,8 @@
+/* Групування селекторів */
+h1,
+h2,
+.warning,
+#info-about-site,
+[href] {
+  color: red;
+}

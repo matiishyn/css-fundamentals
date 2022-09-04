@@ -1,0 +1,46 @@
+body {
+  font-size: 16px;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; не наслідується */
+}
+
+em {
+  color: brown;
+}
+
+#my-link {
+  /* color: gold !important; 10100 */
+}
+
+.link {
+  color: green;
+}
+
+a {
+  /* color: brown !important; 10001 */
+}
+
+p * {
+  border: 1px solid red;
+}
+
+* {
+  color: blue;
+}
+
+.link.social-link {
+  color: aqua;
+}
+
+.link.footer-link {
+  color: darkred;
+}
+
+button {
+  color: yellow;
+}
+
+button {
+  color: red;
+}

@@ -1,0 +1,74 @@
+div,
+h1,
+h3 {
+  border: 1px solid red;
+}
+
+h1 {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  margin: 10px;
+}
+
+h3 {
+  width: 150px;
+}
+
+span,
+a {
+  border: 1px blue solid;
+}
+
+.link {
+  margin: 20px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link-top {
+  padding-top: 20px;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.new-link {
+  display: inline-block;
+}
+
+.new-link-top {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 30px;
+}
+
+h2 {
+  /* display: none; */
+  /* margin-left: -1000px; */
+  position: absolute;
+  left: -1000px;
+}
+
+p strong {
+  /* display: none; */
+  opacity: 0;
+}
+
+p em {
+  visibility: hidden;
+}
+
+footer {
+  border: 1px solid green;
+  width: 300px;
+  height: 200px;
+
+  box-shadow: 10px 15px 5px 5px red;
+}

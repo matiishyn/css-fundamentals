@@ -1,0 +1,101 @@
+/* словесне значення
+від xx-small до xxx-lagre */
+p {
+  font-size: xxx-large;
+}
+
+/* smaller, larger */
+div.sm {
+  font-size: large;
+}
+
+div.sm span {
+  font-size: smaller;
+}
+
+/* ЧИСЛОВІ ЗНАЧЕННЧЯ - АБСОЛЮТНІ */
+h1 {
+  font-size: 2cm;
+}
+
+h2 {
+  font-size: 12mm;
+}
+
+h3 {
+  font-size: 1in;
+}
+
+h4 {
+  font-size: 2pc;
+}
+
+h5 {
+  font-size: 20pt;
+}
+
+h6 {
+  font-size: 24px; /* Найчастіше використовується */
+}
+
+/* приклад використання розмірів */
+.box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+/* ЧИСЛОВІ ЗНАЧЕННЧЯ - ВІДНОСНІ */
+.test-em {
+  font-size: 16px;
+}
+
+.test-em li {
+  font-size: 1.5em;
+}
+
+html {
+  font-size: 16px;
+}
+
+.test-rem li {
+  font-size: 1.5rem;
+}
+
+.box2 {
+  background-color: blue;
+  width: 50vw;
+  height: 30vh;
+}
+
+.box3 {
+  background-color: yellow;
+  width: 75%;
+}
+
+/* Міжрядковий інтервал */
+.long-text {
+  font-size: 16px;
+  /* line-height: 2; 32px */
+  line-height: 20px;
+}
+
+/* інтервали між символами */
+h1 {
+  letter-spacing: 5px;
+}
+
+/* інтервали між словами */
+.long-text {
+  word-spacing: 20px;
+}
+
+/* регістр тексту */
+h2 {
+  text-transform: lowercase;
+}
+
+/* підкреслення тексту */
+a {
+  text-decoration: none;
+}
